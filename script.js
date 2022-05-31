@@ -11,6 +11,7 @@ window.onload = function(){
 	tabla10 = document.getElementById('tabla10');
 	tabla11 = document.getElementById('tabla11');
 	tabla12 = document.getElementById('tabla12');
+	contentTabla = document.getElementById('contentTabla');
 	contentBoton = document.getElementById("contentBoton");
 }
 
@@ -22,6 +23,7 @@ function keyp(){
 }
 
 function calcular(){
+	contentTabla.classList.remove("d-none");
 	pesoNuevo = document.getElementById("pesoNuevo");
 	pesoNuevo = pesoNuevo.value;
 	
